@@ -26,4 +26,4 @@
         - [新一代ajax API](https://blog.csdn.net/renfufei/article/details/51494396)
         - http请求方式：HTTP1.0定义了三种请求方法： GET, POST 和 HEAD方法。
         - HTTP1.1新增了五种请求方法：OPTIONS, PUT, DELETE, TRACE 和 CONNECT 方法。
-        - 接口的好处：http://www.cnblogs.com/zhaoyanjun/archive/2016/03/25/5320034.html
+        - 接口的好处：[查看](http://www.cnblogs.com/zhaoyanjun/archive/2016/03/25/5320034.html)
