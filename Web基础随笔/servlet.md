@@ -1,0 +1,17 @@
+## xml配置
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+		 <!--声明-->
+    <servlet>
+        <servlet-name>book</servlet-name>
+        <servlet-class>com.dz.service.BookServlet</servlet-class>
+    </servlet>
+	 <!--绑定请求路径-->
+    <servlet-mapping>
+        <servlet-name>book</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+</web-app>
